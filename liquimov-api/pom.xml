@@ -39,7 +39,11 @@
 				<groupId>org.mongodb</groupId>
 				<artifactId>mongodb-driver-sync</artifactId>
 			</dependency>
-
+			<dependency>
+				<groupId>org.eclipse.jgit</groupId>
+				<artifactId>org.eclipse.jgit</artifactId>
+				<version>5.13.2.202306221912-r</version>
+			</dependency>
 			<!-- Liquibase Dependency -->
 			<dependency>
 				<groupId>org.liquibase</groupId>
@@ -60,6 +64,11 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jgit</groupId>
+			<artifactId>org.eclipse.jgit</artifactId>
+			<version>5.12.0.202106070339-r</version>
 		</dependency>
 	</dependencies>
 
